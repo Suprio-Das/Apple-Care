@@ -1,0 +1,31 @@
+/* Google Fonts Relation */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.background-gradient{
+    background-image: linear-gradient(90deg,#2937f0, #9f1ae2);
+}
+.highlight{
+    color: #2937f0;
+}
+/* Navigation Styles */
+header{
+    height: 80px;
+}
+
+/* Banner section */
+.banner{
+    min-height: calc(100vh - 80px);
+}
+/* Promotion section */
+.promotion{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
